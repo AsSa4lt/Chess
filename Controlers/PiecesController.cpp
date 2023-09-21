@@ -11,3 +11,10 @@ PiecesController &PiecesController::getInstance() {
     static PiecesController instance;
     return instance;
 }
+
+void PiecesController::AddWhitePiece(Piece *whitePiece) {
+    _whitePieces.push_back(whitePiece);
+}
+void PiecesController::AddBlackPiece(Piece *blackPiece) {
+    _whitePieces.push_back(blackPiece);
+}
