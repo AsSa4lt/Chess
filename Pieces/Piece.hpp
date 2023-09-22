@@ -10,8 +10,8 @@
 class Piece {
 public:
     int value;
-    sf::Vector2f _position;
-    //virtual void
+    sf::Vector2i _position;
+    virtual std::vector<sf::Vector2i> PossibleMoves();
 };
 
 
