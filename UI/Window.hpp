@@ -5,7 +5,7 @@
 #include "TGUI/TGUI.hpp"
 #include <SFML/System/Clock.hpp>
 #include <SFML/System/Time.hpp>
-#include "SimpleBoardDrawer.hpp"
+#include "Boards/SimpleBoardDrawer.hpp"
 #include <raymath.h>
 #ifndef CHESS_WINDOW_HPP
 #define CHESS_WINDOW_HPP

@@ -52,6 +52,9 @@ void Window::Update() {
 
         // Clear screen with white color
         window.clear(sf::Color::Black);
+
+        drawer.Update();
+
         // Draw your GUI
         gui.draw();
 
