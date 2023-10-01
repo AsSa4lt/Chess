@@ -5,6 +5,7 @@
 #include "TGUI/TGUI.hpp"
 #include <SFML/System/Clock.hpp>
 #include <SFML/System/Time.hpp>
+#include "SimpleBoardDrawer.hpp"
 #include <raymath.h>
 #ifndef CHESS_WINDOW_HPP
 #define CHESS_WINDOW_HPP
@@ -27,6 +28,7 @@ private:
     int height = 0;
     int width = 0;
     sf::RenderWindow window;
+    SimpleBoardDrawer drawer;
     tgui::Gui gui;
     static const int fps = 60;
 };

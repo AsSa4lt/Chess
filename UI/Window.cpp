@@ -60,6 +60,4 @@ void Window::Update() {
     }
 }
 
-Window::Window() {
-
-}
+Window::Window() : drawer(window) {}

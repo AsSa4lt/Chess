@@ -3,7 +3,9 @@ project(Chess)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Chess main.cpp UI/Window.cpp UI/Window.hpp Pieces/Piece.cpp Pieces/Piece.hpp Pieces/Rook.cpp Pieces/Rook.hpp Controlers/PiecesController.cpp Controlers/PiecesController.hpp)
+add_executable(Chess main.cpp UI/Window.cpp UI/Window.hpp Pieces/Piece.cpp Pieces/Piece.hpp Pieces/Rook.cpp Pieces/Rook.hpp Controlers/PiecesController.cpp Controlers/PiecesController.hpp
+        UI/SimpleBoardDrawer.cpp
+        UI/SimpleBoardDrawer.hpp)
 include_directories(/usr/local/include)
 
 # Find SFML
